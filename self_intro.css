@@ -1,0 +1,65 @@
+@charset "utf-8";
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(../image/nepal2.jpg);
+    margin: 0;
+    padding: 0;
+}
+.image-container {
+    float: right; 
+    margin-right: 20px; 
+  }
+  .image-contact img {
+    float: right; 
+    width: 40px;
+    height: 40px;
+    margin-right: 40px; 
+
+  }
+header {
+    background-color: #e30d0d;
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+    text-shadow: 4px 4px 2px black;
+}
+nav {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover {
+    color: #e40f0f;
+}
+section {
+    padding: 20px;
+    
+}
+table, th, td {
+    border:1px solid black;
+    width: 70%;
+  }
+  h1 { color: white;}
+  footer {
+    background-attachment: hsl(0, 0%, 5%);
+    color: #ed0707;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+  }
+  @media screen and (max-width: 428px) {
+      body {
+          font-size: 14px;
+      }
+  }
+  @media screen and (min-width: 429px) and (max-width: 768px) {
+  }
